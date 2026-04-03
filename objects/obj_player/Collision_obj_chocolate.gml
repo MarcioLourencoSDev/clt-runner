@@ -13,5 +13,6 @@ switch(other.sprite_index){
 		global.pontos += 2;
 		break;
 }
+audio_play_sound(snd_pickup, 1, false);
 #endregion
 instance_destroy(other);
