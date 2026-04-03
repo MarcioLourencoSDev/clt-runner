@@ -1,4 +1,4 @@
-if(x == 28) image_xscale = 1;
+if(x == 25) image_xscale = 1;
 else image_xscale = -1;
 
 // Quando sair da room: destruido

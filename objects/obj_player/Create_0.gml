@@ -1,7 +1,7 @@
 randomise();
 
 
-x = 25; // Pos - inicial
+x = 27; // Pos - inicial
 
 enum states{
 	LEFT,

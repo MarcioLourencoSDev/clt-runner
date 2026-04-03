@@ -12,9 +12,21 @@ if(iscooldown) exit;
 
 
 #region generator
-var _rand = irandom_range(0, 5);
-if(_rand == 0){
+var _rand = irandom_range(0, 20);
+if(_rand == 1){
+	instance_create_layer(0, -1, "Instances", obj_chocolate);
+	iscooldown = true;
+} else if(_rand == 2){
+	instance_create_layer(0, -1, "Instances", obj_coxinha);
+	iscooldown = true;
+} else if(_rand == 3){
+	instance_create_layer(0, -1, "Instances", obj_hamburg);
+	iscooldown = true;
+} else if(_rand == 4){
+	instance_create_layer(0, -1, "Instances", obj_batata);
+	iscooldown = true;
+} else{
 	instance_create_layer(0, -1, "Instances", obj_clt);
 	iscooldown = true;
-}
+} 
 #endregion
